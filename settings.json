@@ -6,7 +6,7 @@
     "type": "offline"
   },
   "server": {
-    "ip": "Zhaxxk1.aternos.me",
+    "ip": "lampfish.aternos.host",
     "port": 35306,
     "version": "",
     "try-creative": false
