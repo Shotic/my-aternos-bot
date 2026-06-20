@@ -1212,8 +1212,14 @@ function createBot() {
       config.server.version && config.server.version.trim() !== ""
         ? config.server.version
         : false;
+    // Generate a random username each time the bot joins
+    const baseName = config["bot-account"].username;
+    const randomSuffix = Math.floor(Math.random() * 9999);
+    const randomUsername = `${baseName}_${randomSuffix}`;
+    addLog(`[Bot] Joining as: ${randomUsername}`);
+
     bot = mineflayer.createBot({
-      username: config["bot-account"].username,
+      username: randomUsername,
       password: config["bot-account"].password || undefined,
       auth: config["bot-account"].type,
       host: config.server.ip,
