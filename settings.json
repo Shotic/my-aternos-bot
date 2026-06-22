@@ -27,10 +27,13 @@
       "sneak": true
     },
     "chat-messages": {
-      "enabled": false,
-      "repeat": false,
-      "repeat-delay": 60,
-      "messages": []
+      "enabled": true,
+      "repeat": true,
+      "repeat-delay": 300,
+      "messages": [
+        "Hello! im just a bot",
+        "Keeping the server Alive!"
+      ]
     },
     "chat-log": true,
     "auto-reconnect": true,

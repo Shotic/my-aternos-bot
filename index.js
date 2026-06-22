@@ -1454,12 +1454,11 @@ function initializeModules(bot, mcData, defaultMove) {
   if (config.utils["chat-messages"] && config.utils["chat-messages"].enabled) {
     const messages = config.utils["chat-messages"].messages;
     if (config.utils["chat-messages"].repeat) {
-      let i = 0;
       addInterval(() => {
-        if (bot && botState.connected) {
-          bot.chat(messages[i]);
+        if (bot && botState.connected && messages.length > 0) {
+          const randomIndex = Math.floor(Math.random() * messages.length);
+          bot.chat(messages[randomIndex]);
           botState.lastActivity = Date.now();
-          i = (i + 1) % messages.length;
         }
       }, config.utils["chat-messages"]["repeat-delay"] * 1000);
     } else {
