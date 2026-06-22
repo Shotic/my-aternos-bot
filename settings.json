@@ -32,7 +32,11 @@
       "repeat-delay": 300,
       "messages": [
         "Hello! im just a bot",
-        "Keeping the server Alive!"
+        "Keeping the server Alive!",
+        "Don't mind me, just walking in circles...",
+        "Still here! 24/7 AFK power 🔋",
+        "Beep boop! I am friendly.",
+        "Just hanging out so the server doesn't shut down!"
       ]
     },
     "chat-log": true,
