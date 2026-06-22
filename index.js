@@ -1214,7 +1214,7 @@ function createBot() {
         : false;
     // Generate a random username each time the bot joins
     const baseName = config["bot-account"].username;
-    const randomSuffix = Math.floor(Math.random() * 9999);
+    const randomSuffix = Math.random().toString(36).substring(2, 7);
     const randomUsername = `${baseName}_${randomSuffix}`;
     addLog(`[Bot] Joining as: ${randomUsername}`);
 
