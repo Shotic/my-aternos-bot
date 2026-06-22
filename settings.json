@@ -6,7 +6,7 @@
     "type": "offline"
   },
   "server": {
-    "ip": "morwong.aternos.host",
+    "ip": "Zhaxxk1.aternos.me",
     "port": 35306,
     "version": "1.20.4",
     "try-creative": false
@@ -29,11 +29,9 @@
     "chat-messages": {
       "enabled": true,
       "repeat": true,
-      "repeat-delay": 120,
+      "repeat-delay": 60,
       "messages": [
-        "I'm just AFK!",
-        "Keeping the server alive!",
-        "Hello everyone!"
+        "tangina nyo lahat mga kupal"
       ]
     },
     "chat-log": true,
