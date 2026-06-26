@@ -6,7 +6,7 @@
     "type": "offline"
   },
   "server": {
-    "ip": "monkfish.aternos.host",
+    "ip": "filefish.aternos.host",
     "port": 35306,
     "version": "1.20.4",
     "try-creative": false
