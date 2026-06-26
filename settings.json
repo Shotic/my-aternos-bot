@@ -6,8 +6,8 @@
     "type": "offline"
   },
   "server": {
-    "ip": "filefish.aternos.host",
-    "port": 35306,
+    "ip": "Zhaxxk1.aternos.me",
+    "port": 25565,
     "version": "1.20.4",
     "try-creative": false
   },
